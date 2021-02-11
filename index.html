@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSS/stylesheet.css">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="img/fabicon-img.png">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <title>ロジカルシンキングを鍛える</title>
+</head>
+<body>
+  <!-- ヘッダー部分 -->
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-2">
+          <a href="index.html">HOME</a>
+        </div>
+        <div class="col-6 offset-4 link">
+          <a href="practice3.html">練習問題３</a>
+          <a href="practice2.html">練習問題２</a>
+          <a href="practice1.html">練習問題１</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="main bg">
+    <div class="main-div">
+      <p class="main-title">論理的思考力を鍛えよう</p>
+      <p class="main-explain">〜ロジカルシンキング学習サイト〜</p>
+    </div>
+  </div>
+    <!-- オールコンテンツ -->
+    <div class="all-contents">
+    <!-- コンテンツ部分 -->
+    <section class="contents">
+      <h2 class="frame-box">ロジカルシンキングはなぜ必要？</h2>
+      
+      <p>ロジカルシンキングについて、ペンギンくんとウサギちゃんがふくろう先生に教わるようです。<br>まずはロジカルシンキングの必要性を理解しましょう。</p>
+      <!-- 吹き出しウサギ -->
+      <div class="balloon balloon-left">
+        <div class="faceicon">
+          <img src="img/usagi-icon.png" alt="うさぎの画像
+          ">
+          <p>ウサギちゃん
+          </p>
+        </div>
+        <div class="chatting">
+          <div class="say">
+            <p>コンサルティングファームを目指してる人だけが勉强するんでしょ？
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- 吹き出しうさぎ＊＊完了 -->
+      <!-- 吹き出しペンギン -->
+      <div class="balloon balloon-left">
+        <div class="faceicon">
+          <img src="img/pengin-icon.png" alt="ぺんぎんの画像
+          ">
+          <p>ペンギンくん
+          </p>
+        </div>
+        <div class="chatting">
+          <div class="say">
+            <p>じゃあ僕には関係無いや〜
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- 吹き出しペンギン＊＊完了 -->
+      <!-- 吹き出しフクロウ -->
+      <div class="balloon balloon-right">
+        <div class="faceicon">
+          <img src="img/hukurou-icon.png" alt="フクロウの画像">
+          <p>ふくろう先生
+          </p>
+        </div>
+        <div class="chatting">
+          <div class="say">
+            <p>そんなことは無いぞ！ロジカルシンキングは全ての人に役立つスキルだよ。
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- 吹き出しフクロウ＊＊完了 -->
+      
+      <p>ふくろう先生が言うように、ロジカルシンキングは全ての人にとって非常に有益であり、特に<span class="red">社会人は必須で学ぶべきスキルです。</span></p>
+      <p>ロジカルシンキングで得られるメリットは次のとおりです。</p>
+      <div class="ul-center">
+        <p>＜ロジカルシンキングを学ぶメリット＞</p>
+        <ul>
+          <li>問題解決能力の向上</li>
+          <li>分析能力の向上</li>
+          <li>提案能力の向上</li>
+          <li>生産性の向上</li>
+        </ul>
+      </div>
+      
+      <p>このサイトでは、例題を通じてロジカルシンキングを分かりやすく説明します。<br>ペンギンくんたちと一緒にロジカルシンキングを学んでいきましょう！</p>
+    </section>
+    
+    <section class="about">
+      <h2 class="frame-box">
+        ケースワークの解き方を学ぼう
+      </h2>
+      <!-- 吹き出しフクロウ -->
+      <div class="balloon balloon-right">
+        <div class="faceicon">
+          <img src="img/hukurou-icon.png" alt="フクロウの画像">
+          <p>ふくろう先生
+          </p>
+        </div>
+        <div class="chatting">
+          <div class="say">
+            <p>ロジカルシンキングを鍛えるには、実際にケースワークを考えてみるのが良いんだ。まずは例題を解いていこう！
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- 吹き出しフクロウ＊＊完了 -->
+      
+      <div class="example">
+        <p>【例題】</p>
+        <p>都内にあるサイゼリヤ全店舗の総売上を増やす方法を考えよ。<br>ただし、期間や売上目標値はここでは定めない。</p>
+      </div>
+      
+      <!-- 吹き出しウサギ -->
+      <div class="balloon balloon-left">
+        <div class="faceicon">
+          <img src="img/usagi-icon.png" alt="うさぎの画像
+          ">
+          <p>ウサギちゃん
+          </p>
+        </div>
+        <div class="chatting">
+          <div class="say">
+            <p>うおん。全然わかんないよ〜
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- 吹き出しウサギ＊＊完了 -->
+      <p>初めてケースワークを解く人は、ウサギちゃんと同じくちんぷんかんぷんですよね。</p>
+      <p>まずはケースワークを解く３つのSTEPを理解しましょう。アイコンをクリックして、各STEPの説明を読んでください。</p>
+      <div class="three-step-wrap">
+        <p class="sub-title">【ケースワークを解く３STEP】</p>
+        <div class="three-step">
+          <!-- STEP1 -->
+          <div class="step-wrap" id="step1-wrap">
+            <div class="step"><img src="img/step1-icon.png" alt="ステップ1の画像">
+            </div>
+            <p>STEP1：現状分析</p>
+          </div>
+          
+          <!-- STEP2 -->
+          <div class="step-wrap" id="step2-wrap">
+            <div class="step"><img src="img/step2-icon.png" alt="ステップ2の画像">
+            </div>
+            <p>STEP2：課題特定</p>
+          </div>
+          
+          <!-- STEP3 -->
+          <div class="step-wrap" id="step3-wrap">
+            <div class="step"><img src="img/step3-icon.png" alt="ステップ3の画像">
+            </div>
+            <p>STEP3：打手検討</p>
+            
+          </div>
+        </div>
+      </div>
+        
+        <!-- STEP1 説明 -->
+        <div id="step1-explain" class="step-explain-wrap">
+          <div class="step-explain">
+            <p class="ex-title"><i class="fa far fa-chart-bar"></i>現状分析</p>
+            <div class="close-explain">
+              <i class="fas fa-times"></i>
+            </div>
+            <p class="br">課題を解決するためには、まずは現時点の状況を分析しなくては始まりません。<br>物事は必ず<span class="red">複数の要因で成り立っている</span>ので、その要因を網羅的に切り分け、それぞれについて検討する必要があります。これが現状分析です。</p>
+            <p class="br">例えば恋人が欲しいと相談を受けたときは、「オシャレな服を買え」とか「合コンに行け」といった断片的なアドバイスは有用ではありません。
+            </p>
+            <p class="br">まずは恋人を作る要因を「外見・内面・出会いの数」という３つの要素に切り分け、網羅的に要因を検討する（すなわち現状分析する）ことが大切です。</p>
+            <p>補足ですが、要素を切り分けることを「構造化」と呼び、その際に抜け漏れが無い様を「MECE」と呼びます。ロジカルシンキングを勉強する際は必ず出てくる単語なので、頭に入れておきましょう。</p>
+          </div>
+        </div>
+      <!-- STEP2 説明 -->
+      <div id="step2-explain" class="step-explain-wrap">
+        <div class="step-explain">
+          <p class="ex-title"><i class="fa fas fa-search"></i>課題特定</p>
+          <div class="close-explain">
+            <i class="fas fa-times"></i>
+          </div>
+          <p>現状の分析が完了したら、課題（ボトルネック）を特定します。</p>
+          <p class="br">先程の「恋人が欲しい」という相談を例に取ると、例えば相談者がマッチングアプリに３つ登録して、かつ毎週合コンに参加している場合、出会いの数は問題なさそうですね。<br>この場合、ボトルネックは「外見・内面」のどちらかだと特定できます。
+          </p>
+          <p class="br">なお、ここでは分かりやすさを重視して「外見・内面・出会いの数」という３つの観点でしか検討していませんが、実際には外見を「<span class="bold">内的要因</span>（容姿/スタイル/髪型など自分の体に準ずる要素）」「<span class="bold">外的要因</span>（ファッション/アクセサリー/香水など身に纏う要素）」に分けるなど、更に細分化して考えることが出来ます。</p>
+          <p>より具体的な課題を特定するためには、STEP1で<span class="red">詳細かつ網羅的に現状分析する</span>ことが大切です。</p>
+        </div>
+      </div>
+    <!-- STEP3 説明 -->
+    <div id="step3-explain" class="step-explain-wrap">
+      <div class="step-explain">
+        <p class="ex-title"><i class="fa far fa-lightbulb"></i></i>打手検討</p>
+        <div class="close-explain">
+          <i class="fas fa-times"></i>
+        </div>
+        <p class="br">最後に、特定したボトルネックに対して効果的な打ち手を検討します。</p>
+        <p class="br">まずはボトルネックに対して複数の打ち手を考え、それらを<span class="bold">「実現可能性」</span>及び<span class="bold">「効果」</span>の２側面から評価します。<br>先ほどと同様「恋人を作りたい」という相談を例に、打ち手策を評価してみましょう。</p>
+        <p class="br">例えば「整形して容姿を整える」という打ち手はどうでしょうか？効果は高そうですが、金銭面や価値観から実現可能性は低そうですね。<br>逆に「オシャレな時計を買う」という打ち手は、実現可能性は高いものの、効果のほどはあまり期待できそうにありませんね。</p>
+        <p>このように打ち手を検討する際は<span class="red">ボトルネックに対して「実現可能性・効果」の２つの観点で検討する</span>ことが重要です。</p>
+      </div>
+    </div>
+  <!-- 吹き出しペンギン -->
+  <div class="balloon balloon-left">
+    <div class="faceicon">
+      <img src="img/pengin-icon.png" alt="ぺんぎんの画像
+      ">
+      <p>ペンギンくん
+      </p>
+    </div>
+    <div class="chatting">
+      <div class="say">
+        <p>取り組む方法はなんとなく理解したけど、実際に解ける自信が無いです...
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- 吹き出しペンギン＊＊完了 -->
+  <!-- 吹き出しフクロウ -->
+  <div class="balloon balloon-right">
+    <div class="faceicon">
+      <img src="img/hukurou-icon.png" alt="フクロウの画像">
+      <p>ふくろう先生
+      </p>
+    </div>
+    <div class="chatting">
+      <div class="say">
+        <p>まずは解く流れを理解すれば大丈夫だぞ。具体的な考え方は一緒に問題を解きながら学んでいこう！
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- 吹き出しフクロウ＊＊完了 -->
+  </section>
+  <section class="analytics"> 
+    <h2 class="frame-box">現状分析をしてみよう</h2>
+    <p>早速「都内サイゼリヤの全店舗売上」を要素分解してみましょう。</p>
+    <p>分解方法はいくつかありますが、客数と単価で分解すると以下の式のようになります。</p>
+    <p>この式はよく使うので覚えてしまいましょう。</p>
+    <div class="formula">
+      <p>売上＝店舗数 × １店舗当たりの客数 × 客単価 × リピート率</p>
+    </div>
+    <p>多くの人はここでストップしてしまうのですが、もう一歩踏み込んで考えてみましょう。</p>
+    <p>上記の要素の中で、さらに分解できる要素が複数あります。どれか分かりますか？</p>
+    <!-- 吹き出しフクロウ -->
+    <div class="balloon balloon-right">
+      <div class="faceicon">
+        <img src="img/hukurou-icon.png" alt="フクロウの画像">
+        <p>ふくろう先生
+        </p>
+      </div>
+      <div class="chatting">
+        <div class="say">
+          <p>どのように分解できるかも一緒に考えてみよう！</p>
+        </div>
+      </div>
+    </div>
+    <!-- 吹き出しフクロウ＊＊完了 -->
+
+    <!-- 質問 -->
+    <div class="question-wrap">
+      <p class="question-explain"><i class="fa far fa-lightbulb"></i>さらに分解できる要素をクリックしてください。</p>
+      <div class="question" id="question1">
+        <p>A. 店舗数</p>
+      </div>
+      <p class="question" id="question2">B. １店舗当たりの客数</p>
+      <p class="question" id="question3">C. 客単価</p>
+      <p class="question" id="question4">D. リピート率</p>
+    </div>
+
+    <!-- 回答 -->
+    
+    <div class="answer-wrap" id="answer1-wrap">
+      <div class="answer">
+        <div class="close-answer">
+          <i class="fas fa-times"></i>
+        </div>
+        <p class="answer-mark correct">
+          <i class="far fa-circle"></i>
+        </p>
+        <p class="answer-title">正解です！</p>
+        <p class="answer-detail">都内の店舗数は「23区内/23区外」や「テナント店/路面店」等に分解できます。</p>
+      </div>
+    </div>
+
+    <div class="answer-wrap" id="answer2-wrap">
+      <div class="answer">
+        <div class="close-answer">
+          <i class="fas fa-times"></i>
+        </div>
+        <p class="answer-mark correct">
+          <i class="far fa-circle"></i>
+        </p>
+        <p class="answer-title">正解です！</p>
+        <p class="answer-detail">1店舗当たりの客数は「座席数 × 1時間あたりの回転率 × 営業時間」や<br>「平日/休日・朝/昼/晩」のように時間帯・曜日別に分解することが出来ます。</p>
+      </div>
+    </div>
+
+    <div class="answer-wrap" id="answer3-wrap">
+      <div class="answer">
+        <div class="close-answer">
+          <i class="fas fa-times"></i>
+        </div>
+        <p class="answer-mark correct">
+          <i class="far fa-circle"></i>
+        </p>
+        <p class="answer-title"> 正解です！</p>
+        <p class="answer-detail">客単価は「テイクアウト + イートイン」「注文数量 × 商品単価」「ドリンク + フード」等に分解できます。</p>
+      </div>
+    </div>
+
+    <div class="answer-wrap" id="answer4-wrap">
+      <div class="answer">
+        <div class="close-answer">
+          <i class="fas fa-times"></i>
+        </div>
+        <p class="answer-mark incorrect">
+          <i class="far fa-times-circle"></i>
+        </p>
+        <p class="answer-title">残念...</p>
+        <p class="answer-detail">リピート率はこれ以上分解することは難しいです。もう一度考えてみましょう。</p>
+      </div>
+    </div>
+   <p>３つの要素は更に細分化可能でしたね。しっかり正解できたでしょうか？</p>
+   <p>売上の要素分解は非常によく使う考え方なので、しっかり使いこなせるようにしましょう！</p>
+   
+  <div class="supplement">
+    <p class="sub-title"><i class="fa fas fa-graduation-cap"></i>補足</p>
+    <p>網羅的に現状分析する方法として、今回説明した「要素分解」の他に「フレームワークの活用」「時系列で検討」「対照概念で分解する」という手段もあります。これらは練習問題で説明します。
+    </p>
+  </div>
+  <p>それでは、上記３つの要素を更に分解して、現状分析をしましょう！...言いたいところですが、さすがに議論が複雑になりすぎます。
+  </p>
+  <p>簡略化のため、「1店舗当たりの客数」のみ細分化して、他の要素はそのまま分析しましょう。
+  </p>
+  <!-- 吹き出しフクロウ -->
+  <div class="balloon balloon-right">
+    <div class="faceicon">
+      <img src="img/hukurou-icon.png" alt="フクロウの画像">
+      <p>ふくろう先生
+     </p>
+   </div>
+   <div class="chatting">
+     <div class="say">
+       <p>まずは細分化しない「店舗数・客単価・リピート率」を分析してみよう。
+       </p>
+     </div>
+   </div>
+ </div>
+ <!-- 吹き出しフクロウ＊＊完了 -->
+
+   <!-- 吹き出しペンギン -->
+   <div class="balloon balloon-left">
+    <div class="faceicon">
+      <img src="img/pengin-icon.png" alt="ぺんぎんの画像
+      ">
+      <p>ペンギンくん
+      </p>
+    </div>
+    <div class="chatting">
+      <div class="say">
+        <p>都内では至るところにサイゼリヤがあるから、店舗数は充分ですね。
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- 吹き出しペンギン＊＊完了 -->
+
+  <!-- 吹き出しウサギ -->
+  <div class="balloon balloon-left">
+    <div class="faceicon">
+      <img src="img/usagi-icon.png" alt="うさぎの画像
+      ">
+      <p>ウサギちゃん
+      </p>
+    </div>
+    <div class="chatting">
+      <div class="say">
+        <p>学生やカフェ代わりに使う主婦が多いから、客単価は低そうです。
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- 吹き出しウサギ＊＊完了 -->
+
+  <!-- 吹き出しペンギン -->
+  <div class="balloon balloon-left">
+    <div class="faceicon">
+      <img src="img/pengin-icon.png" alt="ぺんぎんの画像
+      ">
+      <p>ペンギンくん
+      </p>
+    </div>
+    <div class="chatting">
+      <div class="say">
+        <p>安くて美味しくて全国展開してるお店なので、リピート率は高そうですね。
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- 吹き出しペンギン＊＊完了 -->
+
+   <!-- 吹き出しフクロウ -->
+   <div class="balloon balloon-right">
+    <div class="faceicon">
+      <img src="img/hukurou-icon.png" alt="フクロウの画像">
+      <p>ふくろう先生
+     </p>
+   </div>
+   <div class="chatting">
+     <div class="say">
+       <p>二人とも良い分析が出来ているぞ！続いて客数を「昼・夕方・夜」と「平日・休日」に細分化して分析してみよう。
+       </p>
+     </div>
+   </div>
+ </div>
+ <!-- 吹き出しフクロウ＊＊完了 -->
+
+  <!-- 吹き出しウサギ -->
+  <div class="balloon balloon-left">
+    <div class="faceicon">
+      <img src="img/usagi-icon.png" alt="うさぎの画像
+      ">
+      <p>ウサギちゃん
+      </p>
+    </div>
+    <div class="chatting">
+      <div class="say">
+        <p>３×２の表でまとめたら分かりやすいですね！
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- 吹き出しウサギ＊＊完了 -->
+<table>
+  <tr>
+    <th></th><th>平日</th><th>休日</th>
+  </tr>
+
+  <tr>
+    <th>昼</th>
+    <td>サラリーマンがランチで使用<br>500円のランチが人気<br>混んでいるが回転率は早い</td>
+    <td rowspan="2">学生・家族連れ</td>
+  </tr>
+  <tr>
+    <th>夕方</th>
+    <td>主婦のお茶会<br>基本的に空いており、客単価も低い？</td>
+  </tr>
+  <tr>
+    <th>夜</th>
+    <td colspan="2">学生・家族連れ・飲み会<br>意外とお酒を飲んでる人が多い<br>休日は混んでいて入れないことも...</td>
+  </tr>
+  
+</table>
+
+  <!-- 吹き出しペンギン -->
+  <div class="balloon balloon-left">
+    <div class="faceicon">
+      <img src="img/pengin-icon.png" alt="ぺんぎんの画像
+      ">
+      <p>ペンギンくん
+      </p>
+    </div>
+    <div class="chatting">
+      <div class="say">
+        <p>あくまで仮説ですが、こんな感じで良いですか？
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- 吹き出しペンギン＊＊完了 -->
+
+     <!-- 吹き出しフクロウ -->
+     <div class="balloon balloon-right">
+      <div class="faceicon">
+        <img src="img/hukurou-icon.png" alt="フクロウの画像">
+        <p>ふくろう先生
+       </p>
+     </div>
+     <div class="chatting">
+       <div class="say">
+         <p>良く出来ているね！売上データを入手できない以上絶対的な正解は導けないから、<span class="red">自分なりに根拠を持った仮説を作ること</span>が大切なんだ。
+         </p>
+       </div>
+     </div>
+   </div>
+   <!-- 吹き出しフクロウ＊＊完了 -->
+
+</section>
+<section class="bottleneck-find">
+  <h2 class="frame-box">課題を特定しよう</h2>
+  <p>続いて課題を特定します。ペンギンくん・ウサギちゃんの分析をヒントに、課題を検討しましょう。</p>
+  <p class="br">絶対的な正解というのは存在しないので、みなさん自身で課題を特定してみてください。</p>
+  <p>参考までに、店舗数・客数・客単価・リピート率のアイコンにマウスをのせると、課題として考えられる事項が表示されるので、確認してみてください。</p>
+  <div class="bottleneck-wrap">
+    <div class="bottleneck">
+        <p class="neck-title">店舗数</p>
+      <p>
+        <img class="neck-icon" src="img/shop-icon.png" alt="お店のアイコン">
+      </p>
+      <p class="bottleneck-detail">都内に充分に店舗が存在するため、店舗数はここでは問題とはみなしません。
+      </p>
+    </div>
+
+    <div class="bottleneck">
+      <p class="neck-title">客数</p>
+      <p>
+        <img class="neck-icon" src="img/customer-icon.png" alt="お客のアイコン">
+      </p>
+      <p class="bottleneck-detail">平日の夕方は空席が多く、逆に休日は回転率が悪くて顧客を逃しているため、ボトルネックの１つとします。
+      </p>
+    </div>
+
+    <div class="bottleneck">
+      <p class="neck-title">客単価</p>
+      <p>
+        <img class="neck-icon" src="img/money-icon.png" alt="お金のアイコン">
+      </p>
+      <p class="bottleneck-detail">学生や主婦の利用が多く、客単価が低いことが考えられるため、ここもボトルネックでしょう。
+      </p>
+    </div>
+
+    <div class="bottleneck">
+      <p class="neck-title">リピート率</p>
+      <p>
+        <img class="neck-icon" src="img/repeat-icon.png" alt="リピート率のアイコン">
+      </p>
+      <p class="bottleneck-detail">既にある程度の接客サービス・知名度があるため、リピート率はここでは問題視しないことにしましょう。
+      </p>
+    </div>
+    </div>
+  </section>
+
+  <section class="measure">
+    <h2 class="frame-box">打手を検討しよう</h2>
+    <!-- 吹き出しペンギン -->
+    <div class="balloon balloon-left">
+      <div class="faceicon">
+        <img src="img/pengin-icon.png" alt="ぺんぎんの画像
+        ">
+        <p>ペンギンくん
+        </p>
+      </div>
+      <div class="chatting">
+        <div class="say">
+          <p>先生、ボトルネックを「客単価・客数」と特定しました！
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- 吹き出しペンギン＊＊完了 -->
+
+    <!-- 吹き出しフクロウ -->
+     <div class="balloon balloon-right">
+      <div class="faceicon">
+        <img src="img/hukurou-icon.png" alt="フクロウの画像">
+        <p>ふくろう先生
+       </p>
+     </div>
+     <div class="chatting">
+       <div class="say">
+         <p>よし、では最後に打手を考えていくぞ。<br>まずはアイディアを考えて、ある程度の案が出揃ったら<span class="red">効果</span>と<span class="red">実現可能性</span>の観点で評価していこう！
+         </p>
+       </div>
+     </div>
+   </div>
+   <!-- 吹き出しフクロウ＊＊完了 -->
+   <p>それではこれまでの現状分析・課題特定を基に解決策を検討しましょう。</p>
+   <p>実現可能性や効果は後ほど検討するので、突拍子も無いアイディアでも案として候補に入れておきましょう。まずは質より量で考えます！
+   </p>
+
+   <!-- 吹き出しウサギ -->
+  <div class="balloon balloon-left">
+    <div class="faceicon">
+      <img src="img/usagi-icon.png" alt="うさぎの画像
+      ">
+      <p>ウサギちゃん
+      </p>
+    </div>
+    <div class="chatting">
+      <div class="say">
+        <p>打手をこんな感じで考えました！
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- 吹き出しウサギ＊＊完了 -->
+  <div class="measure-wrap">
+    <p><i class="fa far fa-lightbulb"></i>打手案一覧</p>
+    <ol>
+      <li>アルコールの種類を増やす</li>
+      <li>高校生以下は18時以降の利用を２時間までとする</li>
+      <li>平日の14時〜17時にコーヒーとケーキのセットメニュー販売
+      </li>
+      <li>2,000円以上の高額メニューを追加</li>
+      <li>席の間隔を詰めて席数数を増やす</li>
+    </ol>
+  </div>
+
+  <!-- 吹き出しフクロウ -->
+  <div class="balloon balloon-right">
+    <div class="faceicon">
+      <img src="img/hukurou-icon.png" alt="フクロウの画像">
+      <p>ふくろう先生
+     </p>
+   </div>
+   <div class="chatting">
+     <div class="say">
+       <p>良いアイディアが出ていると思うぞ！それじゃあこれらを「効果・実現可能性」の観点から評価していこう。
+       </p>
+     </div>
+   </div>
+ </div>
+ <!-- 吹き出しフクロウ＊＊完了 -->
+
+ <div class="measure-consider">
+   <h3>アルコールの種類を増やす</h3>
+   <p>サワーやカクテルは、材料を混ぜるだけなので、簡単に提供できます。高額な機材も不要なので、実現可能性は高いです。</p>
+   <p>効果についても、サイゼリヤを居酒屋代わりに使う顧客が増えて客単価の上昇が期待できます。ただし回転率が下がるので、その対策も検討する必要があります。
+   </p>
+   <h3>高校生以下は18時以降の利用を２時間までとする</h3>
+   <p>実現は容易ですが、この施策によりクレームの多発・学生の利用減少といった懸念があります。仮に行う場合は慎重に実施する必要があります。
+   </p>
+   <p>効果については、安い客単価で利用する学生が減った分、飲み客やファミリー客による客単価の上昇が見込まれます。</p>
+   <h3>平日の14時〜17時はコーヒーとケーキのセットメニュー販売
+   </h3>
+   <p>コーヒーマシンや新しいメニューを追加する必要があるため、実現は容易ではありませんが、不可能ではないですね。</p>
+   <p>カフェとして利用している主婦をターゲットにする点は良いのですが、現状「ドリンクバー」や「スイーツ」を既に販売しているため、大きな効果は期待出来なそうです。</p>
+   <h3>2,000円以上の高額メニューを追加</h3>
+   <p>新規メニューの開発となるため、先と同様に、実現は容易でも不可能でも無いですね。</p>
+   <p>効果については、高額メニューを提供するターゲットは既存顧客ではないため、効果は期待出来ないどころか、顧客ターゲットがぶれてしまう危険性もあります。</p>
+   <h3>席の間隔を詰めて席数数を増やす</h3>
+   <p>大幅に座席数を増やすには店内改装が必要となり、実現可能性は低いですね。</p>
+    <p>効果については、収容人数が増えるので当然売上の上昇は見込まれますが、顧客に窮屈感を与えてしまい、満足度が下がるなどの弊害も考えられます。</p>
+ </div>
+
+  <!-- 吹き出しフクロウ -->
+  <div class="balloon balloon-right">
+    <div class="faceicon">
+      <img src="img/hukurou-icon.png" alt="フクロウの画像">
+      <p>ふくろう先生
+     </p>
+   </div>
+   <div class="chatting">
+     <div class="say">
+       <p>以上の考察から打手の効果を表にまとめてみるぞ！
+       </p>
+     </div>
+   </div>
+  </div>
+  <!-- 吹き出しフクロウ＊＊完了 -->
+  <table>
+    <tr>
+      <th></th>
+      <th>打手１</th>
+      <th>打手２</th>
+      <th>打手３</th>
+      <th>打手４</th>
+      <th>打手５</th>
+    </tr>
+    <tr>
+      <th>実現可能性</th>
+      <td>◎</td>
+      <td>○</td>
+      <td>△</td>
+      <td>△</td>
+      <td>☓</td>
+    </tr>
+    <tr>
+      <th>効果</th>
+      <td>◎</td>
+      <td>○</td>
+      <td>△</td>
+      <td>☓</td>
+      <td>○</td>
+    </tr>
+  </table>
+
+<!-- 吹き出しウサギ -->
+<div class="balloon balloon-left">
+  <div class="faceicon">
+    <img src="img/usagi-icon.png" alt="うさぎの画像
+    ">
+    <p>ウサギちゃん
+    </p>
+  </div>
+  <div class="chatting">
+    <div class="say">
+      <p>かなり考えが整理されてきましたね！
+      </p>
+    </div>
+  </div>
+</div>
+<!-- 吹き出しウサギ＊＊完了 -->
+
+<!-- 吹き出しペンギン -->
+<div class="balloon balloon-left">
+  <div class="faceicon">
+    <img src="img/pengin-icon.png" alt="ぺんぎんの画像
+    ">
+    <p>ペンギンくん
+    </p>
+  </div>
+  <div class="chatting">
+    <div class="say">
+      <p>じゃあ売上を向上させるための案を最終的に言語化してみます！
+      </p>
+    </div>
+  </div>
+</div>
+<!-- 吹き出しペンギン＊＊完了 -->
+<div class="suggestion">
+  <p class="sub-title">売上向上案</p>
+  <p>売上を増やすためには「アルコールメニューの種類」を増やして、サイゼリヤの弱みである「客単価の低さ」を改善することを提案します。</p>
+  <p>サワーやカクテルは提供するための初期費用が安く、またアルバイトでも簡単に作ることが出来るため、簡単にメニューに追加出来ます。</p>
+  <p>これにより、今までお酒を頼まなかった客層の客単価が向上することが期待できます。</p>
+  <p>弊害としてお店の回転率低下が考えられますが、これは18時以降の学生利用時間を制限することで対応可能です。
+  </p>
+</div>
+
+<!-- 吹き出しフクロウ -->
+<div class="balloon balloon-right">
+  <div class="faceicon">
+    <img src="img/hukurou-icon.png" alt="フクロウの画像">
+    <p>ふくろう先生
+    </p>
+  </div>
+  <div class="chatting">
+    <div class="say">
+      <p>よし、しっかりケースワークの答えを用意することが出来たね。今回は練習だから検討を簡略化した部分もあるけど、基本的な流れはしっかりつかめたようだね！
+      </p>
+    </div>
+  </div>
+</div>
+<!-- 吹き出しフクロウ＊＊完了 -->
+<!-- 吹き出しウサギ -->
+<div class="balloon balloon-left">
+  <div class="faceicon">
+    <img src="img/usagi-icon.png" alt="うさぎの画像
+    ">
+    <p>ウサギちゃん
+    </p>
+  </div>
+  <div class="chatting">
+    <div class="say">
+      <p>解き方を理解すれば、最初に思ったより難しくなかったね。
+      </p>
+    </div>
+  </div>
+</div>
+<!-- 吹き出しウサギ＊＊完了 -->
+
+<!-- 吹き出しペンギン -->
+<div class="balloon balloon-left">
+  <div class="faceicon">
+    <img src="img/pengin-icon.png" alt="ぺんぎんの画像
+    ">
+    <p>ペンギンくん
+    </p>
+  </div>
+  <div class="chatting">
+    <div class="say">
+      <p>練習問題も頑張ります！
+      </p>
+    </div>
+  </div>
+</div>
+<!-- 吹き出しペンギン＊＊完了 -->
+<p>無事ペンギンくんとウサギちゃんはケースワークを解くことが出来ましたね。</p>
+<p>ケースワークには絶対的な正解がないので、<span class="red">結論を出すに至った根拠</span>が非常に大切です。</p>
+<p class="br">今回の問題では「なぜ客単価を課題としたか」「他の施策は無いのか」「他の課題は無いのか」「本当にそれで改善できるのか」こういった質問に論理的に回答出来るようになってください。</p>
+<p class="br">また、打手の定量的な評価（今回の打手により売上は何ヶ月で何％増加見込みか、等）を求められる場合もあります。<br>このような概算値を算出する方法は「フェルミ推定」と呼ばれ、こちらも訓練しておく必要があります。</p>
+<p>とはいえ、まずは打手を考えられるようになればロジカルシンキングの基礎は身につきます。練習問題を３題用意したので、ケースワークが解けるか腕試ししてみましょう！
+</p>
+<div class="practice-btnlink">
+  <button onclick="location.href='practice1.html'" type="btn" class="btn-warning">練習問題１</button>
+  <button onclick="location.href='practice2.html'" type="btn" class="btn-warning">練習問題２</button>
+  <button onclick="location.href='practice3.html'" type="btn" class="btn-warning">練習問題３</button>
+</div>
+</section>
+</div>
+<footer>
+  <p class="reference">＊本サイトを作成するに当たり、東大ケーススタディ研究会様著「問題を解く力を鍛えるケース問題ノート」（東洋経済新報社出版）の内容を一部参考にさせていただきました。</p>
+  <div class="copyright">
+  <p>Copyright &copy; KOJI All Rights Reserved.
+  </p>
+</div>
+</footer>
+
+<script src="jquery.js"></script>
+</body>
+</html>
