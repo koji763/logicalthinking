@@ -1,0 +1,471 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@700&display=swap");
+@import url(comon.css);
+@import url(practice.css);
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 4.2rem;
+  text-align: center;
+  margin: 5rem auto;
+}
+
+header {
+  background-color: #fff;
+  color: #fff;
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+header .link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+header a {
+  text-decoration: none;
+  color: #202020;
+  padding-right: 10px;
+}
+
+.main {
+  height: 40rem;
+  background-image: url(../img/main-bg.jpg);
+  background-color: #201f1f;
+  background-blend-mode: lighten;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .main-div {
+  background-color: rgba(99, 94, 94, 0.6);
+  vertical-align: middle;
+  width: 100%;
+}
+
+.main .main-div .main-title {
+  text-align: center;
+  color: #fff;
+  font-size: 4rem;
+  font-family: 'Noto Serif SC', serif;
+}
+
+.main .main-div .main-explain {
+  text-align: center;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.all-contents {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.contents {
+  padding: 1rem 0;
+}
+
+.contents ul {
+  margin: 0;
+}
+
+.contents .ul-center {
+  border: solid 1px #575454;
+  border-radius: 10px;
+  padding: 1rem 5rem;
+  margin: 3rem auto;
+  background-color: #f1eded;
+}
+
+.about {
+  padding: 1rem 0;
+}
+
+.about .example {
+  border: solid 1px #575454;
+  border-radius: 10px;
+  padding: 2rem 5rem;
+  margin: 5rem auto;
+}
+
+.about .example p {
+  padding-left: 10px;
+  font-size: 2.4rem;
+}
+
+.about .three-step-wrap {
+  padding: 3rem 0;
+  margin: 8rem auto;
+  border: solid 2px orange;
+  background-color: #f8f7f5;
+  border-radius: 10px;
+}
+
+.about .three-step-wrap .three-step {
+  padding-top: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.about .three-step-wrap .three-step .step-wrap {
+  text-align: center;
+  cursor: pointer;
+}
+
+.about .three-step-wrap .three-step .step-wrap:hover {
+  opacity: 0.5;
+}
+
+.about .three-step-wrap .three-step .step-wrap p {
+  display: inline-block;
+  font-size: 2rem;
+  padding-top: 2rem;
+}
+
+.about .three-step-wrap .three-step .step-wrap img {
+  width: 30%;
+  height: 30%;
+}
+
+.about .step-explain-wrap {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 5;
+  display: none;
+}
+
+.about .step-explain-wrap .step-explain {
+  border: solid 3px #646161;
+  border-radius: 10px;
+  background-color: #fff;
+  width: 90%;
+  position: relative;
+  top: 15%;
+  left: 5%;
+  padding: 3rem 5rem;
+}
+
+.about .step-explain-wrap .step-explain .fa-times {
+  color: rgba(128, 128, 128, 0.4);
+  cursor: pointer;
+  font-size: 4rem;
+  position: absolute;
+  top: 5%;
+  left: 90%;
+}
+
+.about .step-explain-wrap .step-explain p {
+  line-height: 2em;
+}
+
+.about .step-explain-wrap .step-explain .ex-title {
+  font-size: 3rem;
+  border-bottom: double 3px orange;
+  margin-bottom: 40px;
+}
+
+.analytics .formula {
+  border: solid 1px #575454;
+  border-radius: 10px;
+  padding: 2rem 5rem;
+  margin: 5rem auto;
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+.analytics .question-wrap {
+  margin: 5rem 0;
+}
+
+.analytics .question-wrap .question-explain {
+  font-size: 2.4rem;
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.analytics .question-wrap .question-explain .fa-lightbulb {
+  color: #e2c623;
+}
+
+.analytics .question-wrap .question {
+  border: solid 1px #575454;
+  border-radius: 10px;
+  padding: 2rem 5rem;
+  margin: 5rem auto;
+  margin: 1rem auto;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: #e9e3e3;
+}
+
+.analytics .question-wrap .question:hover {
+  background-color: rgba(233, 227, 227, 0.4);
+  cursor: pointer;
+}
+
+.analytics .question-wrap .question p {
+  margin-bottom: 0;
+}
+
+.analytics .answer-wrap {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 5;
+  display: none;
+}
+
+.analytics .answer-wrap .answer {
+  border: solid 3px #646161;
+  border-radius: 10px;
+  background-color: #fff;
+  width: 90%;
+  position: relative;
+  top: 15%;
+  left: 5%;
+  padding: 3rem 5rem;
+}
+
+.analytics .answer-wrap .answer-mark {
+  font-size: 20rem;
+  top: 10%;
+  text-align: center;
+}
+
+.analytics .answer-wrap .answer-title {
+  font-size: 6rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.analytics .answer-wrap .answer-detail {
+  font-size: 2rem;
+  padding: 2rem 4rem;
+}
+
+.analytics .answer-wrap .correct {
+  color: red;
+}
+
+.analytics .answer-wrap .incorrect {
+  color: blue;
+}
+
+.analytics .answer-wrap .close-answer {
+  color: rgba(128, 128, 128, 0.4);
+  cursor: pointer;
+  font-size: 4rem;
+  position: absolute;
+  top: 10%;
+  left: 85%;
+}
+
+.analytics .supplement {
+  border: solid 2px red;
+  border-radius: 10px;
+  margin: 4rem 0;
+}
+
+.analytics .supplement p {
+  font-size: 1.8rem;
+  padding: 0 1.5rem;
+  line-height: 2em;
+}
+
+.bottleneck-find .bottleneck-wrap {
+  margin: 3rem auto;
+  border: solid 2px orange;
+  background-color: #f8f7f5;
+  border-radius: 10px;
+}
+
+.bottleneck-find .bottleneck-wrap .bottleneck {
+  display: inline-block;
+  width: 24%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 3rem 2rem;
+  margin: 0;
+  vertical-align: top;
+}
+
+.bottleneck-find .bottleneck-wrap .bottleneck img {
+  width: 30%;
+  opacity: .3;
+}
+
+.bottleneck-find .bottleneck-wrap .bottleneck img:hover {
+  opacity: 1;
+}
+
+.bottleneck-find .bottleneck-wrap .bottleneck p {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.bottleneck-find .bottleneck-wrap .bottleneck .neck-title {
+  font-size: 1.2rem;
+  margin: 3rem 0;
+  font-weight: bold;
+}
+
+.bottleneck-find .bottleneck-wrap .bottleneck .bottleneck-detail {
+  font-size: 1.4rem;
+  text-align-last: left;
+  padding: 2rem 0.5rem;
+  margin: 0;
+  display: none;
+}
+
+.bottleneck-find .bottleneck-wrap .bottleneck .bottleneck-detail-active {
+  display: block;
+}
+
+.measure {
+  padding-bottom: 8rem;
+}
+
+.measure .measure-wrap {
+  padding: 2rem 0 1rem 1.5rem;
+  border: solid 1px #afa9a9;
+  border-radius: 10px;
+}
+
+.measure .measure-consider {
+  text-align: center;
+}
+
+.measure .measure-consider h3 {
+  font-size: 3rem;
+  display: inline-block;
+  margin: 6rem 0;
+  font-weight: bold;
+  border-bottom: double 3px orange;
+}
+
+.measure .measure-consider p {
+  text-align-last: left;
+  padding-bottom: 2rem;
+}
+
+.measure td {
+  text-align-last: center;
+}
+
+.suggestion {
+  border: solid 2px orange;
+  background-color: #f8f7f5;
+  border-radius: 10px;
+  margin: 2rem auto;
+}
+
+.suggestion p {
+  padding: 1rem 4rem;
+}
+
+footer .reference {
+  font-size: 0.3rem;
+  padding: 0.3rem 1rem;
+}
+
+footer .copyright {
+  background-color: #cfcaca;
+  text-align: center;
+  font-size: 0.3rem;
+  line-height: 3rem;
+}
+
+button {
+  padding: 0.8rem 1.2rem;
+}
+
+.practice-btnlink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 75%;
+  margin: 5rem auto;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  html {
+    font-size: 37.5%;
+  }
+  .bottleneck-find .bottleneck-wrap .bottleneck {
+    width: 100%;
+  }
+  .bottleneck-find .bottleneck-wrap .bottleneck img {
+    width: 18%;
+  }
+  .bottleneck-find .bottleneck-wrap .bottleneck .bottleneck-detail {
+    padding: 1rem 20%;
+  }
+  .bottleneck-find .bottleneck-wrap .bottleneck .neck-title {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  html {
+    font-size: 50%;
+  }
+  .bottleneck-find .bottleneck-wrap .bottleneck {
+    width: 49%;
+  }
+  .bottleneck-find .bottleneck-wrap .bottleneck .bottleneck-detail {
+    padding: 1rem 10%;
+  }
+  .bottleneck-find .bottleneck-wrap .bottleneck .neck-title {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 1028px) {
+  .all-contents {
+    width: 60%;
+  }
+  .ul-center, .example {
+    width: 80%;
+  }
+  .balloon {
+    margin: 8rem 0;
+  }
+}
+/*# sourceMappingURL=stylesheet.css.map */

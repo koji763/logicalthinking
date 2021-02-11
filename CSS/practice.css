@@ -1,0 +1,92 @@
+.practice {
+  margin-top: 8rem;
+}
+
+.practice .practice-title {
+  font-size: 3rem;
+  padding: 3rem 0 6rem 0;
+  text-align: center;
+}
+
+.hint-wrap {
+  padding: 4rem 0;
+}
+
+.hint-wrap .hint-title {
+  font-size: 2.8rem;
+  padding: 1.5rem;
+}
+
+.hint-wrap .hint-title i {
+  color: orange;
+}
+
+.hint-wrap .hint {
+  cursor: pointer;
+  position: relative;
+  border: solid 1px #8d8c8c;
+  border-radius: 1px;
+  padding: 1rem 3rem;
+  margin-bottom: 1rem;
+}
+
+.hint-wrap .hint .hint-detail {
+  display: none;
+}
+
+.hint-wrap .hint .hint-detail-title {
+  margin: 0;
+  font-size: 2.4rem;
+}
+
+.hint-wrap .hint span {
+  position: absolute;
+  top: 0%;
+  left: 95%;
+  font-size: 3rem;
+  color: #8d8c8c;
+}
+
+.practiceanswer-wrap {
+  text-align: center;
+}
+
+.practiceanswer-wrap button {
+  margin: 3rem 0;
+}
+
+.practiceanswer-wrap .practiceanswer {
+  display: none;
+}
+
+.practiceanswer-wrap .practiceanswer p, .practiceanswer-wrap .practiceanswer li {
+  text-align: left;
+}
+
+.practiceanswer-wrap .practiceanswer .step-title {
+  font-size: 4rem;
+  font-weight: bold;
+  border-bottom: double 3px orange;
+  width: 50%;
+  margin: 5rem auto;
+  text-align: center;
+}
+
+.practiceanswer-wrap .practiceanswer ol {
+  width: 95%;
+  margin: 5rem auto;
+  border: solid 1px #000;
+  padding-left: 5rem;
+}
+
+.btnlink {
+  width: 80%;
+  margin: 5rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=practice.css.map */

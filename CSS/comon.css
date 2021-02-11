@@ -1,0 +1,191 @@
+.bg {
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.balloon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 95%;
+  margin: 4rem auto;
+  font-size: 2rem;
+}
+
+.balloon .chatting {
+  display: inline-block;
+  max-width: 80%;
+}
+
+.balloon .chatting .say {
+  display: inline-block;
+  position: relative;
+  padding: 17px 13px;
+  border-radius: 12px;
+  min-width: 120px;
+  max-width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.balloon .chatting .say p {
+  margin: 0;
+  padding: 0;
+}
+
+.balloon .faceicon {
+  width: 100px;
+  text-align: center;
+}
+
+.balloon .faceicon img {
+  width: 10rem;
+  height: auto;
+  border: solid 1px #181717;
+  border-radius: 50%;
+}
+
+.balloon .faceicon p {
+  font-size: 1.2rem;
+  padding: 5px 0;
+  margin: 0;
+}
+
+.balloon .say:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 15px;
+  border: 12px solid transparent;
+  z-index: 2;
+}
+
+.balloon .say:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 13px;
+  border: 14px solid transparent;
+  z-index: 1;
+}
+
+.balloon-left .say {
+  margin-left: 20px;
+  background: #d7ebfe;
+  border: 2px solid #2249c9;
+}
+
+.balloon-left .say:before {
+  left: -24px;
+  border-right: 12px solid #d7ebfe;
+}
+
+.balloon-left .say:after {
+  left: -29px;
+  border-right: 14px solid #2249c9;
+}
+
+.balloon-right {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.balloon-right .say {
+  margin-right: 20px;
+  background: #dafed7;
+  border: 2px solid #03581d;
+}
+
+.balloon-right .say:before {
+  right: -24px;
+  border-left: 12px solid #dafed7;
+}
+
+.balloon-right .say:after {
+  right: -29px;
+  border-left: 14px solid #03581d;
+}
+
+.frame-box {
+  padding: 30px;
+  position: relative;
+}
+
+.frame-box::before, .frame-box::after {
+  content: '';
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+
+.frame-box::before {
+  border-left: solid 4px #fd7e00;
+  border-top: solid 4px #fd7e00;
+  top: 0;
+  left: 0;
+}
+
+.frame-box::after {
+  border-right: solid 4px #fd7e00;
+  border-bottom: solid 4px #fd7e00;
+  bottom: 0;
+  right: 0;
+}
+
+.red {
+  color: red;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.br {
+  margin-bottom: 2em;
+}
+
+.top {
+  margin-top: 3rem;
+}
+
+ol {
+  list-style: lower-roman;
+  padding-top: 1rem;
+}
+
+ol li {
+  padding: 0 0 1.6rem 1.2rem;
+}
+
+.fa {
+  margin-right: 8px;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+}
+
+table th, table td {
+  border: solid 1px #aaa;
+}
+
+table th {
+  background-color: #eaf1f5;
+  text-align: center;
+  padding: 1rem 0.5rem;
+}
+
+table td {
+  text-align-last: left;
+  padding: 1rem 0 1rem 2rem;
+}
+
+.sub-title {
+  padding: 2rem 3rem !important;
+  font-size: 2.6rem !important;
+}
+/*# sourceMappingURL=comon.css.map */
