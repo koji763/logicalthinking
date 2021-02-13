@@ -196,13 +196,13 @@ header .burger-menu {
 }
 
 .about .step-explain-wrap .step-explain p {
-  line-height: 2em;
+  line-height: 1.5em;
 }
 
 .about .step-explain-wrap .step-explain .ex-title {
   font-size: 3rem;
   border-bottom: double 3px orange;
-  margin-bottom: 40px;
+  margin-bottom: 3.5rem;
 }
 
 .analytics .formula {
