@@ -1,4 +1,12 @@
 $(function() {
+  // モーダル表示
+  $('.burger-menu').click(function(){
+    $('.modal').slideDown();
+  })
+  $('.modal-close').click(function(){
+    $('.modal').slideUp();
+  })
+
   // 説明表示
   $('#step1-wrap').click(function(){
     $('#step1-explain').fadeIn();
