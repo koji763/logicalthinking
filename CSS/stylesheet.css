@@ -1,6 +1,6 @@
-  @import url("https:/fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@700&display=swap");
-@import url("https:/koji763.github.io/logicalthinking/CSS/comon.css");
-@import url("https:/koji763.github.io/logicalthinking/CSS/practice.css");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@700&display=swap");
+@import url("https://koji763.github.io/logicalthinking/CSS/comon.css");
+@import url("https://koji763.github.io/logicalthinking/CSS/practice.css");
 html {
   font-size: 62.5%;
 }
@@ -56,7 +56,7 @@ header .burger-menu {
 
 .main {
   height: 40rem;
-  background-image: url("https:/koji763.github.io/logicalthinking/img/main-bg.jpg");
+  background-image: url("https://koji763.github.io/logicalthinking/img/main-bg.jpg");
   background-color: #201f1f;
   background-blend-mode: lighten;
   display: -webkit-box;
