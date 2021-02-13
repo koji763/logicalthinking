@@ -437,7 +437,7 @@ button {
 
 @media screen and (max-width: 599px) {
   html {
-    font-size: 37.5%;
+    font-size: 40%;
   }
   header .menu {
     display: none;
