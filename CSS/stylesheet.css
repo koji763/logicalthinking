@@ -272,20 +272,20 @@ header .burger-menu {
 }
 
 .analytics .answer-wrap .answer-mark {
-  font-size: 17rem;
+  font-size: 16rem;
   top: 10%;
   text-align: center;
 }
 
 .analytics .answer-wrap .answer-title {
-  font-size: 5rem;
+  font-size: 4.5em;
   text-align: center;
   font-weight: bold;
 }
 
 .analytics .answer-wrap .answer-detail {
   font-size: 2rem;
-  padding: 2rem 4rem;
+  padding: 1.8rem 3.6rem;
 }
 
 .analytics .answer-wrap .correct {
